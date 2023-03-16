@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- style -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="input">
+            <input type="number" placeholder="Enter First Number" id="firstNumber">
+            <input type="number" placeholder="Enter Second Number" id="SecondNumber">
+        </div>
+        <div class="buttons">
+            <button class="button" onclick="calculate('+')" id="add">+</button>
+            <button class="button" onclick="calculate('-')" id="subtract">-</button>
+            <button class="button" onclick="calculate('*')" id="multiply">*</button>
+            <button class="button" onclick="calculate('/')" id="divide">/</button>
+        </div>
+        <div id="resultmsg"></div>
+    </div>
+    <!-- script  -->
+    <script src="./script.js">Result </script>
+</body>
+
+</html>

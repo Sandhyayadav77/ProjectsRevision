@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+ background-color: gainsboro;
+}
+form{
+    height: 400px;
+    background-color:rgb(201, 201, 205);
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 5% auto;
+    padding: 20px 10px ;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 20px black;
+}
+label{
+    font-size: 1.3rem;
+}
+input{
+    margin: 10px;
+    display: block;
+    padding: 4px 10px ;
+    font-size: 20px ;
+    border-radius: 4px ;
+    border: 1px solid black;
+    font-weight: 600;
+}
+#msg{
+    font-size: 1.3rem;
+    margin:15px ;
+}
+button{
+    margin-top: 10px ;
+    padding: 5px 22px ;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+button:hover{
+    background-color: black;
+    border:2px solid rgb(171, 170, 170);
+    color: white;
+    border-radius: 8px;
+}

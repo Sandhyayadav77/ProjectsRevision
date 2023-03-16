@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: radial-gradient(rgb(200, 157, 240), white, rgb(200, 157, 240));
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 70%;
+    width: 35%;
+    background-color: gainsboro;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 10px 5px purple;
+
+}
+
+
+h1 {
+    color: blueviolet;
+    font-size: 60px;
+    margin-bottom: 12px;
+    text-shadow: 2px 2px 5px purple;
+}
+
+label {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: 5px;
+    text-shadow: 2px 2px 5px darkmagenta;
+
+}
+
+input {
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px 19px;
+    margin: 5px;
+    font-size: 1.1rem;
+    box-shadow: 2px 2px 5px 3px darkmagenta;
+
+}
+
+button {
+    padding: 7px 15px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 2px solid rgb(241, 240, 240);
+    margin: 18px;
+    cursor: pointer;
+    background-color: darkmagenta;
+    color: white;
+
+
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    box-shadow: 2px 1px 12px 3px rgb(184, 184, 189);
+    box-shadow: 2px 2px 5px 3px violet;
+
+
+}
+
+#result {
+    border-top: 2px groove black;
+    border-bottom: 2px groove black;
+    border-width: 80%;
+    font-size: 2rem;
+    margin: 10px;
+    color: darkmagenta;
+}
+p{
+    color: purple;
+    font-size: 1.2rem;
+}

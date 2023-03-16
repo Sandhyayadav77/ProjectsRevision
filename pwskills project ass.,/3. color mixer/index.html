@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Mixer</title>
+    <!-- style  -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <form onsubmit="return false">
+        <h1>Color Mixer</h1>
+        <p>Enter one of these colors - red , green , blue.</p>
+        <label for="Color1">Color 1</label>
+        <input type="text" name="mycolor1" id="Color1">
+        <label for="Color2">Color 2</label>
+        <input type="text" name="mycolor2" id="Color2">
+        <button id="colorResult" onclick="mixColor()" type="submit">Submit</button>
+        <div id="result"></div>
+
+    </form>
+    <!-- script  -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
